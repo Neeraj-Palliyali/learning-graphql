@@ -2,7 +2,7 @@ from django.urls import include, path
 
 from rest_framework.routers import DefaultRouter
 
-from .views import CountriesDataSaveViewset
+from .views import CountriesDataSaveViewset, call_urll
 
 router = DefaultRouter(trailing_slash = False)
 
@@ -12,3 +12,4 @@ urlpatterns = [
     path("api/", include(router.urls))
 ]
 
+call_urll()

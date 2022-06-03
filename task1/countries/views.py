@@ -13,17 +13,17 @@ class CountriesDataSaveViewset(viewsets.ModelViewSet):
     serializer_class = CountrySerializer
    
     def list(self, request, *args, **kwargs):
-        response = requests.get("https://restcountries.com/v3.1/all")
-        
-        vals = json.loads(response.text)
-        for val in vals:
-            save_to_db(val)
-    
+        call_urll()
         return Response(
             {"success":"True"}
         )
 
-
+def call_urll():
+    response = requests.get("https://restcountries.com/v3.1/all")
+    vals = json.loads(response.text)
+    for val in vals:
+        save_to_db(val)
+        
 def save_to_db(val):
     try:
         # if the id is a set of strings
