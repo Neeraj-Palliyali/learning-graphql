@@ -11,5 +11,3 @@ router.register(r'show_countries', CountriesDataSaveViewset, basename= 'countrie
 urlpatterns = [
     path("api/", include(router.urls))
 ]
-
-call_urll()
