@@ -5,6 +5,7 @@ from .models import Country, Language
 # Register your models here.
 class CountryAdmin(admin.ModelAdmin):
     list_display = ("name",)
+    search_fields= ('name',)
     
 class LanguageAdmin(admin.ModelAdmin):
     list_display = ("language",)
