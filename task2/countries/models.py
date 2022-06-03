@@ -12,8 +12,12 @@ class Country(models.Model):
     long = models.FloatField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at  = models.DateTimeField(auto_now=True)
+    def __str__(self) -> str:
+        return self.name
 
 class Language(models.Model):
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
     language = models.CharField(max_length=50)
     lang_key = models.CharField(max_length=50)
+    def __str__(self) -> str:
+        return self.country.name

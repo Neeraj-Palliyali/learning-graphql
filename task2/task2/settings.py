@@ -42,6 +42,12 @@ INSTALLED_APPS = [
     'countries',
 ]
 
+GRAPHENE = {
+    'SCHEMA': 'countries.schema.schema',
+    'RELAY_CONNECTION_MAX_LIMIT': 10,
+    'RELAY_CONNECTION_ENFORCE_FIRST_OR_LAST': True,
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
