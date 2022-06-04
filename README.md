@@ -4,7 +4,8 @@
 <br>
 ##Steps
 <br>
-Step1: Go into the task1 directory<br>
+Step1: Go into the task1 directory
+<br>
 Step2: Run<br>
   ```
   Python manage.py makemigrations countries
@@ -12,7 +13,7 @@ Step2: Run<br>
   ```
 Step3:Check db to see if the data is modeled and saved successfully<br>
 <br>
-
+<br>
 #TASK 2
 <br>
 ##Steps
