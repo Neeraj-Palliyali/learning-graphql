@@ -1,8 +1,8 @@
 # UST
 
-#TASK 1
+# TASK 1
 <br>
-##Steps
+## Steps
 
 Step1: Go into the task1 directory
 Step2: Run
@@ -13,9 +13,9 @@ Step2: Run
 Step3:Check db to see if the data is modeled and saved successfully<br>
 <br>
 <br>
-#TASK 2
+# TASK 2
 <br>
-##Steps
+## Steps
 <br>
 Step4:Go into task2 directory<br>
 Step5:Run
