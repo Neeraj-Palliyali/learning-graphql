@@ -3,10 +3,9 @@
 #TASK 1
 <br>
 ##Steps
-<br>
+
 Step1: Go into the task1 directory
-<br>
-Step2: Run<br>
+Step2: Run
   ```
   Python manage.py makemigrations countries
   Python manage.py migrate
