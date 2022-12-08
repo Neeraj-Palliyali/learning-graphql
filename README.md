@@ -1,4 +1,4 @@
-# UST
+# Graphql ba
 
 # TASK 1
 <br>
